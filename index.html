@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>购物网站</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="main">
+        <iframe src="header.html" frameborder="0" scrolling="no" height="90"></iframe>
+		
+		<div id="nav1">
+			<div id="nav">
+            <ul>
+                <li>
+                    <a href="index.html"><h4>首页</h4></a>
+                </li>
+                <li>
+                    <a href="details.html"><h4>详情页</h4></a>
+                </li>
+                <li>
+                    <a href="products.html"><h4>产品页</h4></a>
+                </li>
+            </ul>
+			</div>
+		</div>
+		<p style="clear: both;"></p>
+		
+		<div class="banner">
+			<ul class="imgs">
+				<li><img src="img/index/banner1.png" ></li>
+				<li><img src="img/index/banner2.png" ></li>
+				<li><img src="img/index/banner3.png" ></li>
+				<li><img src="img/index/banner4.png" ></li>
+			</ul>
+		</div>
+		
+        <div id="footer1">
+         <p style="font-size: 20px;">商品精选</p>
+        </div>
+
+        <div class="content">
+            <div>
+        	    <div class="product">
+        			<p class="name">Apple MacBook Air系列</p>
+        			<p class="details">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</p>
+        			<p class="price">￥6988.00</p>
+        			<a href="products.html" class="view">查看详情</a>
+        		</div>
+        		<img src="img/index/study_computer_img4.png">
+        	</div>
+        	<div>
+        	    <div class="product">
+        		    <p class="name">Apple MacBook Air系列</p>
+        			<p class="details">酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</p>
+        			<p class="price">￥3488.00</p>
+        			<a href="product_details.html" class="view">查看详情</a>
+        		</div>
+        		<img src="img/index/study_computer_img5.png">  
+        	</div>
+        	<div>
+        		<div class="product">
+        			<p class="name">Apple MacBook Air系列</p>
+        			<p class="details">酷睿双核i5处理器|512GB SSD|2GB内存|英特尔HD独立显卡</p>
+        			<p class="price">￥3488.00</p>
+        			<a href="product_details.html" class="view">查看详情</a>
+        		</div>
+        		<img src="img/index/study_computer_img3.png">  
+        	</div>
+        	<!--end of content -->
+        </div>
+
+        <div id="digitalClock">
+            <a>
+                <font size="5px"><strong>圣诞节抢单倒计时</strong></font>
+            </a>
+        </div>
+
+        <div id="clock"></div>
+
+        <div class="hot-product">
+            <div class="c1">
+                <img src="img/index/study_computer_img3.png">
+                <h2>戴尔新品</h2>
+                <p><b>新潮爆品</b></p>
+
+            </div>
+            <div class="c2">
+                <img src="img/index/study_computer_img4.png">
+                <h2>戴尔新品</h2>
+                <p><b>新潮爆品</b></p>
+            </div>
+            <div class="c3">
+                <img src="img/index/study_computer_img3.png">
+                <h2>戴尔新品</h2>
+                <p><b>新潮爆品</b></p>
+            </div>
+            <div class="c4">
+                <img src="img/index/study_computer_img4.png">
+                <h2>戴尔新品</h2>
+                <p><b>新潮爆品</b></p>
+            </div>
+        </div>
+        <iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+		
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery.SuperSlide.2.1.js" ></script>
+		
+		<script type="text/javascript">
+			jQuery(".banner").slide(({mainCell:".imgs",effect:"leftLoop",autoPlay:true,interTime:2000,vis:1}))
+		</script>
+    </div>
+
+		<img class="img-left" src="img/2.gif" >
+</body>
+	<script src="js/index.js"></script>
+
+</html>

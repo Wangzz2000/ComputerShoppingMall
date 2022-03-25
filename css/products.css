@@ -1,0 +1,272 @@
+#container{
+	float: left;
+	width: 740px;
+	margin: 0 ;
+}
+.nobk{
+	background-color: #e6e6e6;
+	font-size: 14px;
+	padding: 10px;
+	
+}
+
+#show-list{
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#show-list>li{
+	border: 1px solid #F0F0F0;
+	width: 230px;
+	padding: 0 8px 20px 8px;
+	box-sizing: border-box;
+}
+#show-list>li img{
+	width: 100%;
+}
+
+#show-list>li img:hover{
+	transform: scale(1.1);
+	transition: all .5s linear; 
+}
+#show-list>li p.price{
+	color: #0AA1ED;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+#show-list>li>div a.addCart{
+	margin-top: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	color: #fff;
+	background:linear-gradient(to bottom, #27b1f6,#0AA1ED);
+	position: relative;
+	bottom: 5px;
+	margin-left: 12px;
+}
+.list-car{
+	background-color: #27B1F6;
+	color: white;
+	width:105px;
+	height: 30px;
+	text-align: center;
+	border: none;
+	margin-left: 14px;
+}
+.list-car:hover{
+	color: #666;
+}
+.number-add,.Number-reduce{
+	height: 26px;
+	border:none ;
+	width: 23px;
+	background-color: #dedede;
+	color: white;
+	font-size: 16px;
+	margin-left: 4px;
+}
+.number-add:active,.Number-reduce:active{
+	background-color: #BBBBBB;
+}
+.input_count{
+	width: 25px;
+	height: 22px;
+	margin-top: 14px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: none;
+	background-color:white;
+}
+
+
+.br-list{
+	border: 1px solid gainsboro;
+}
+
+.br-list>img{
+	margin-left: 15px;
+	transition: all 0.5s linear;
+}
+.br-list>img:hover{
+	transform: scale(1.1);
+}
+
+.br-list>p,span,input{
+	margin-left: 5px;
+}
+.page-back{
+	background-color: #e6e6e6;
+	padding: 5px;
+	height: 30px;
+
+}
+
+.page{
+float: right;
+}
+
+.page a{
+	color: #27B1F6;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #cbcbcb;
+	margin: 0 4px;
+	border-radius: 5px;
+}
+.act1{
+	background-color: #ececec;
+	color: white;
+}
+.page a.act{
+	background-color: #27B1F6;
+	color: white;
+	border: 1px solid #27B1F6;
+}
+
+.page a:hover:not(.act){background-color: #B8B8B8;}
+
+#notice-board{
+	width: 210px;
+	float: right;
+}
+#notice-board p.title{
+	color: #808080;
+	height: 36px;
+	line-height: 38px;
+	background-color: #E6E6E6;
+}
+
+#notice-board p.title img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#notice-board div.not-content{
+	padding: 20px;
+}
+#notice-board div.not-content p{
+	font-size: 12px "microsoft yahei";
+	margin-bottom: 5px;
+}
+
+#cart p.title{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 5px;
+	padding-right: 10px;
+	font-size: 14px "simhei";
+	height: 28px;
+	line-height: 28px;
+	background-color: #E6E6E6;
+}
+#cart div.cart-result{
+	height: 46px;
+	line-height: 46px;
+	background-color: #808080;
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px dashed #d0d0d0;
+}
+#cart div.cart-result span{
+	padding-left: 5px;
+	font-size: 20px;
+	color: #fff;
+}
+
+#cart div.cart-result a{
+	color: #fff;
+	font-size: 20px "simhei";
+	background-color: #27B1F6;
+	width: 35%;
+	text-align: center;
+	line-height: 46px;
+}
+.cart-content{
+	background-color: #fff;
+	padding: 10px;
+	font-size: 12px;
+}
+.text-over{
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	height: 14px;
+	line-height: 14px;
+}
+div.num>span{
+	background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 0;
+	
+}
+div.num>input{
+	width:14px;
+	height: 14px;
+	border: 0px;
+	outline: 0;
+	text-align: center;
+}
+div.cart-content>p.singlePrice{
+	margin-top: 5px;
+	font-weight: bold;
+}
+div.cart-content>p.sumPrice{
+	margin-top: 5px;
+	font-weight: bold;
+}
+div.cart-result{
+	height: 46px;
+	line-height: 46px;
+	background-color: #808080;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px dashed #d0d0d0;
+}
+div.cart-result span{
+	padding-left: 5px;
+	font-size: 20px;
+	color: #fff;
+}
+div.cart-result a{
+	color: #fff;
+	font-size: 20px "simhei";
+	background: linear-gradient(to bottom,#27b1f6,#0aa1ed);
+	width: 35%;
+	text-align: center;
+	line-height: 46px;
+}
+#top-btn{
+	display: none;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: skyblue;
+   }
+   #top-btn:hover{
+	background-color: #555;
+   }

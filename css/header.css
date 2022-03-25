@@ -1,0 +1,246 @@
+#header {
+    margin-bottom: 20px;
+}
+
+#logo {
+    float: left;
+    /*左浮动*/
+}
+
+#nav1{
+	margin-bottom: 20px;
+	height: 30px;
+	text-shadow: 5px 5px #00FFFF;
+}
+#nav {
+   margin: 20px 0;
+}
+#nav li{
+	float: left;
+	margin-right: 40px;
+}
+#nav li a{
+	color: #ccc;
+	font-weight: bold;
+	font-size: 16px;
+}
+#nav li a:hover{
+	color: #b8b8b8;
+}
+
+#logo-reg {
+    margin-top: 0px;
+}
+
+#logo-reg li {
+    float: left;
+    padding: 6px;
+}
+
+#nav li {
+    float: left;
+    margin-right: 40px;
+}
+
+#nav li a {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#nav li a:hover {
+    color: #01efad;
+}
+
+#list li {
+    float: left;
+    padding: 6px;
+}
+
+#list li a:hover {
+    color: #0aa1ed;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.floor1 {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+div.content{
+	    width:960px;
+		margin-top:20px;
+        display:flex;  /*弹性布局*/
+		flex-wrap: wrap; /*必要的时候拆行*/
+		justify-content: space-between; /*两端对齐*/
+	  }
+div.content>div{
+		margin-right:5px;
+		padding:5px;
+	    background-color:#eee;
+		width:300px;
+		position:relative;	/*得在前面给div.content的第一个子元素div加相对定位*/
+}
+
+/***********1F:第1个div中图和文字***********/
+/*第一块内容的 文字标题*/
+div.content div.product>p.name{
+	font-size:32px;
+	color:#333;
+}
+/*第一块内容的 描述*/
+div.content div.product>p.details{
+	font-size:12px;
+	margin-bottom:24px;
+	color:#666;
+}
+/*第一块内容的 价格*/
+div.content div.product>p.price{
+	font-size:24px;
+	color:#0aa1ed;
+	margin-bottom:12px;
+}
+div.content div.product a.view{
+	/*行内块，宽度:130，高度:40*/
+	display:inline-block; /*行内块*/
+	width:120px;
+	height:40px;   
+	text-align:center; /*水平局中对齐*/
+	line-height:40px; /*垂直局中对齐，与高度一致*/
+	background:#27B1F6;/*背景颜色*/
+	border-radius:2px; /*倒角*/
+	text-decoration:none; /*取消超链接下划线*/
+	color:#fff;/*文字颜色白色*/
+	font-size:16px; /*文字大小*/
+}
+
+div.content img{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+div.content img{
+	transition:all .5s linear;
+}
+div.content img:hover{
+	transform:scale(1.1);
+}
+
+#digitalClock {
+    margin-top: 20px;
+}
+
+#digitalClock h1 {
+    color: red;
+}
+
+#clock {
+    margin: 30px 0;
+    width: 300px;
+    font: bold 24pt sans;
+    background: #ddf;
+    padding: 10px;
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.hot-product {
+    width: 600px;
+    /*height:300px;*/
+    margin: 0 auto;
+    background: #eee;
+    /*border:1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hot-product div {
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.hot-product div:hover {
+    opacity: 0.5;
+}
+
+.hot-product div>h2 {
+    color: #01afec;
+    margin-bottom: 5px;
+}
+
+#footer {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 0;
+    /*border:1px solid red;*/
+    background: #eee;
+}
+
+#footer .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer .footer-box>li {
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: center;
+}
+
+#footer .footer-box>li>h3 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+#top-input {
+    float: left;
+    margin-left: 30px;
+    width: 420px;
+    height: 34px;
+    border: 1px solid #0aa1ed;
+}
+
+#txtSearch {
+    width: 280px;
+    height: 34px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 15px;
+    outline: none;
+    background-color: #f5f5f5;
+}
+
+#top-input a.sort-search {
+    color: #c3c3c3;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#top-input img.search-img {
+    float: right;
+}
+
+#top-input i.caret {
+    border: 6px solid transparent;
+    border-top-color: #bbb;
+    margin-right: 5px;
+    float: right;
+    margin-top: 12px;
+}
+
